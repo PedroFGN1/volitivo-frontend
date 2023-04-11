@@ -1,4 +1,3 @@
-import { useAuth } from "@/hooks/useAuth";
 import { useCan } from "@/hooks/useCan";
 
 type CanProps = {

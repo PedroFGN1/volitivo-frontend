@@ -1,4 +1,4 @@
-import { Can } from "@/components/can";
+import { Can } from "@/components/Can";
 import { useAuth } from "@/hooks/useAuth";
 import { setupApiClient } from "@/services/api";
 import { withSSRAuth } from "@/utils/withSSRAuth";
