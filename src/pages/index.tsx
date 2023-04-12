@@ -1,8 +1,9 @@
+import { Home } from "@/components/pages/home";
 import { useAuth } from "@/hooks/useAuth";
 import { withSSRGuest } from "@/utils/withSSRGuest";
 import { useState } from "react";
 
-export default function Home() {
+export default function HomePage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const { signIn } = useAuth();
@@ -19,24 +20,25 @@ export default function Home() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input
-        type="email"
-        value={email}
-        onChange={(e) => {
-          setEmail(e.target.value);
-        }}
-      />
-      <input
-        type="password"
-        value={password}
-        onChange={(e) => {
-          setPassword(e.target.value);
-        }}
-      />
+    // <form onSubmit={handleSubmit}>
+    //   <input
+    //     type="email"
+    //     value={email}
+    //     onChange={(e) => {
+    //       setEmail(e.target.value);
+    //     }}
+    //   />
+    //   <input
+    //     type="password"
+    //     value={password}
+    //     onChange={(e) => {
+    //       setPassword(e.target.value);
+    //     }}
+    //   />
 
-      <button type="submit">Submit</button>
-    </form>
+    //   <button type="submit">Submit</button>
+    // </form>
+    <Home />
   );
 }
 
