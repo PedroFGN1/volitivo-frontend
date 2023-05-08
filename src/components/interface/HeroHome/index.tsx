@@ -40,26 +40,26 @@ export const HeroHome = () => {
             <div className="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
               <div className="w-full max-w-xl lg:shrink-0 xl:max-w-2xl">
                 <Heading size="3xl">
-                  We’re changing the way people connect.
+                  Seja bem-vindo a sua aprovação.
                 </Heading>
-                <Text className="mt-5">
-                  Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in
-                  quis cupidatat mollit aute velit. Et labore commodo nulla
-                  aliqua proident mollit ullamco exercitation tempor. Sint
-                  aliqua anim nulla sunt mollit id pariatur in voluptate cillum.
+                  <Text className="mt-5 whitespace-pre-line" >
+                    <Text className="font-bold text-6xl">+</Text>
+                de 1 Milhão de questões para exercitar. 
+                Centenas de cadernos e questionários
+                Todas as principais bancas.
                 </Text>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a href="#">
                     <Button>
                       <Text asChild>
-                        <span>Get started</span>
+                        <span className="text-white font-normal">Vamos começar!</span>
                       </Text>
                     </Button>
                   </a>
                   <a href="#">
                     <Button variant="link">
                       <Text asChild>
-                        <span aria-hidden="true"> Live demo →</span>
+                        <span aria-hidden="true"> Acessar Questões →</span>
                       </Text>
                     </Button>
                   </a>
