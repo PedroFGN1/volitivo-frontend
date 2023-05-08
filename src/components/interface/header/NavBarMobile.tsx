@@ -53,8 +53,8 @@ export const NavBarMobile = ({
             </div>
             <div className="py-6">
               <Button className="-mx-3">
-                <Text>
-                  <span>Log in</span>
+                <Text asChild>
+                <p className='text-slate-300'>Login</p>
                 </Text>
               </Button>
             </div>

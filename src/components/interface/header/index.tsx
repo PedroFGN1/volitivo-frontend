@@ -5,9 +5,9 @@ import { NavBarMobile } from "./NavBarMobile";
 
 const navigation = [
   { name: "Home", href: "#", current: true },
-  { name: "Features", href: "#", current: false },
-  { name: "Marketplace", href: "#", current: false },
-  { name: "Company", href: "#", current: false },
+  { name: "Questões", href: "#", current: false },
+  { name: "Disciplinas", href: "#", current: false },
+  { name: "Materiais Didáticos", href: "#", current: false },
 ];
 
 export const Header = () => {

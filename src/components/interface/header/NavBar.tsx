@@ -32,9 +32,11 @@ export const NavBar = ({ navigation, setMobileMenuOpen }: NavBarProps) => {
       </div>
       <div className="flex flex-1 items-center justify-end gap-x-6">
         <Button variant="ghost" className="hidden lg:block">
-          <Text>Entrar</Text>
+          <Text asChild>
+            <p className='text-slate-600'>Entrar</p>
+            </Text>
         </Button>
-        <Button variant="default" size="sm">
+        <Button variant="default" size="sm" className='bg-blue-800'>
           <Text className="text-white">Cadastre-se</Text>
         </Button>
       </div>

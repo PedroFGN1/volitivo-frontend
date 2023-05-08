@@ -1,4 +1,5 @@
 import  Image  from "next/image";
+import image from "public/foto.jpg";
 
 export const ElementHome = () => {
   const stats = [
@@ -11,7 +12,9 @@ export const ElementHome = () => {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <Image
-        src="public\foto.jpg"
+        src={image}
+        width={500}
+        height={500}
         alt=""
         className='absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center'
       />

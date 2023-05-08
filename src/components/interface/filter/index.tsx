@@ -1,6 +1,7 @@
 'use client'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
+import {Text} from '@/components/ui/text'
 
 import {
   Accordion,
@@ -58,7 +59,7 @@ export const Filter = () => {
       <Accordion type="single" collapsible>
         <AccordionItem value="filter">
           <AccordionTrigger>
-            <h2 className="text-lg">Filtros</h2>
+           <Text > <h2 className="text-lg">Filtrar Disciplinas</h2> </Text>
           </AccordionTrigger>
           <AccordionContent>
             <div>
