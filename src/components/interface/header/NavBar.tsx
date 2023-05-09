@@ -23,6 +23,7 @@ export const NavBar = ({ navigation, setMobileMenuOpen }: NavBarProps) => {
       <div className="flex lg:flex-1">
         <Link href="#" className="-m-1.5 p-1.5">
           <Logo />
+          <Text>Volitivo</Text>
         </Link>
       </div>
       <div className="hidden lg:flex lg:gap-x-12">

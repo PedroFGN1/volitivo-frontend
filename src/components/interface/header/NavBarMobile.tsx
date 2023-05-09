@@ -33,8 +33,11 @@ export const NavBarMobile = ({
         <div className="flex items-center gap-x-6">
           <Link href="src\components\pages\home\index.tsx" className="-m-1.5 p-1.5">
             <Logo />
+            <Text className='font-sans'>Volitivo</Text>
           </Link>
-          <Button className="ml-auto">Cadastre-se</Button>
+          <Button className="ml-auto">
+            <Text className='text-white'>Cadastre-se</Text>
+            </Button>
           <button
             type="button"
             className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -53,9 +56,7 @@ export const NavBarMobile = ({
             </div>
             <div className="py-6">
               <Button className="-mx-3">
-                <Text asChild>
-                <p className='text-slate-300'>Login</p>
-                </Text>
+                <Text className='text-white'>Login</Text>
               </Button>
             </div>
           </div>

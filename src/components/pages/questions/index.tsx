@@ -1,10 +1,10 @@
-import { HeroHome } from "@/components/interface/HeroHome";
+import { ElementHome } from "@/components/interface/ElementHome";
 import { Testimonials } from "@/components/interface/testimonials";
 
 export const Questions = () => {
   return (
     <>
-      <HeroHome />
+      <ElementHome />
       <Testimonials />
     </>
   );

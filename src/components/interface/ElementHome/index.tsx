@@ -1,5 +1,5 @@
-import  Image  from "next/image";
-import image from "public/foto.jpg";
+import Image from "next/image";
+import  image from "public/foto.jpg";
 
 export const ElementHome = () => {
   const stats = [
@@ -16,7 +16,7 @@ export const ElementHome = () => {
         width={500}
         height={500}
         alt=""
-        className='absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center'
+        className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
       />
       <div
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
@@ -48,7 +48,8 @@ export const ElementHome = () => {
             Venha trabalhar conosco
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-300">
-            Comece a usar nossas ferramentas para auxiliar seu aprendizado. Lembre-se que a prática leva a perfeição!
+            Comece a usar nossas ferramentas para auxiliar seu aprendizado.
+            Lembre-se que a prática leva a perfeição!
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
