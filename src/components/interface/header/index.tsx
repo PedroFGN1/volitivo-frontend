@@ -5,7 +5,7 @@ import { NavBarMobile } from "./NavBarMobile";
 
 const navigation = [
   { name: "Home", href: "#", current: true },
-  { name: "Questões", href: "#", current: false },
+  { name: "Questões", href: "./src/components/pages/home/index.tsx", current: false },
   { name: "Disciplinas", href: "#", current: false },
   { name: "Materiais Didáticos", href: "#", current: false },
 ];

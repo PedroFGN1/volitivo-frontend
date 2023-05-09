@@ -35,7 +35,7 @@ export const NavBarMobile = ({
             <Logo />
             <Text className='font-sans'>Volitivo</Text>
           </Link>
-          <Button className="ml-auto">
+          <Button variant='default' size='sm' className="ml-auto">
             <Text className='text-white'>Cadastre-se</Text>
             </Button>
           <button
@@ -51,11 +51,11 @@ export const NavBarMobile = ({
           <div className="-my-6 divide-y divide-gray-500/10">
             <div className="space-y-2 py-6">
               {navigation.map((item) => (
-                <NavLink key={item.name} item={item} mobile />
+                  <NavLink key={item.name} item={item} mobile />
               ))}
             </div>
             <div className="py-6">
-              <Button className="-mx-3">
+              <Button className="ml-24 ">
                 <Text className='text-white'>Login</Text>
               </Button>
             </div>

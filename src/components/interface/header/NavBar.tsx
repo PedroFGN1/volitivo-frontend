@@ -26,18 +26,18 @@ export const NavBar = ({ navigation, setMobileMenuOpen }: NavBarProps) => {
           <Text>Volitivo</Text>
         </Link>
       </div>
-      <div className="hidden lg:flex lg:gap-x-12">
+      <div className="hidden lg:flex lg:gap-x-1">
         {navigation.map((item) => (
+          <Button key={item.name} variant='ghost'>
           <NavLink key={item.name} item={item} />
+          </Button>
         ))}
       </div>
       <div className="flex flex-1 items-center justify-end gap-x-6">
         <Button variant="ghost" className="hidden lg:block">
-          <Text asChild>
-            <p className='text-slate-600'>Entrar</p>
-            </Text>
+          <Text className='text-slate-600'>Entrar</Text>
         </Button>
-        <Button variant="default" size="sm" className='bg-blue-800'>
+        <Button variant="default" size="sm" className='bg-blue-700'>
           <Text className="text-white">Cadastre-se</Text>
         </Button>
       </div>
