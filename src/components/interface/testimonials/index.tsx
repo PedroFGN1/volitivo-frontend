@@ -1,20 +1,21 @@
 import { Text } from "@/components/ui/text";
 import { Testimonial } from "./testimonial";
 
+
 const testimonialsContent = [
   {
-    srcImage: "https://tailwindui.com/img/logos/reform-logo-white.svg",
+    srcImage: "public/logo.png",
     description:
-      "Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare arcu gravida natoque erat et cursus tortor consequat at. Vulputate gravida sociis enim nullam ultricies habitant malesuada lorem ac. Tincidunt urna dui pellentesque sagittis.",
-    name: "Joseph Rodriguez",
-    job: "CEO of Reform",
+      "Na Volitivo nós temos acesso completo e gratuito, me ajudou bastante ter todas as questões separadas por tópicos e bancas.",
+    name: "Julia kailany",
+    job: "Estudante",
   },
   {
-    srcImage: "https://tailwindui.com/img/logos/reform-logo-white.svg",
+    srcImage: "",
     description:
-      "Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare arcu gravida natoque erat et cursus tortor consequat at. Vulputate gravida sociis enim nullam ultricies habitant malesuada lorem ac. Tincidunt urna dui pellentesque sagittis.",
-    name: "Joseph Rodriguez alves",
-    job: "CEO of Reform",
+      "Devo muito da minha aprovação a Volitivo, estudei muito por outros métodos, mas só depois de encontrar o banco de questões da Volitivo que pude progredir de fato.",
+    name: "Mariana Pâmela",
+    job: "Concursada",
   },
 ];
 

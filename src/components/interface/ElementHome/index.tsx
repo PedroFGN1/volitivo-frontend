@@ -1,5 +1,5 @@
 import Image from "next/image";
-import  image from "public/foto.jpg";
+import  image from "public/foto2filtro.jpg";
 
 export const ElementHome = () => {
   const stats = [
