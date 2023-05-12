@@ -1,5 +1,4 @@
 import { Text } from "@/components/ui/text";
-import path from 'path';
 
 type TestimonialProps = {
   srcImage: string;
